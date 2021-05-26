@@ -8,7 +8,7 @@ yeni iki kart açar ve bütün kartları buluncaya kadar oyun devam eder.
 Oyunda Kolay-Orta-Zor olmak üzere 3 tane mod vardır.
 
 <p align="center">
-  <img src="C:\match-or-lose-master\Assets\Images\Ss\Main.PNG" width="350" title="hover text">
+  <img src="Assets\Images\Ss\Main.PNG" width="350" title="hover text">
   <img src="C:\match-or-lose-master\Assets\Images\Ss\Main.PNG" width="350" alt="accessibility text">
 </p>
 

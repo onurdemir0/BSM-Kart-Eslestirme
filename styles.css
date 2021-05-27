@@ -35,6 +35,16 @@ body {
   display:block;
 }
 
+.page-mod {
+  color: #34b7eb;
+  font-family: Creepy, serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 3em;
+  text-decoration: none;
+  display:block;
+}
+
 .game-info-container {
   grid-column: 1 / -1;
   display: flex;

@@ -106,8 +106,11 @@ class MixOrMatch {
             this.scores.innerText = this.point;
         }
         else 
+        {
             this.cardMismatch(card, this.cardToCheck);
-
+            this.point -= 20;
+            this.scores.innerText = this.point;
+        }
         this.cardToCheck = null;
     }
     cardMatch(card1, card2) {
@@ -127,7 +130,7 @@ class MixOrMatch {
             this.busy = false;
         }, 1000);
     }
-    shuffleCards(cardsArray) { // Fisher-Yates Karıştırma Algoritması
+    shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algoritması
         for (let i = cardsArray.length - 1; i > 0; i--) {
             let randIndex = Math.floor(Math.random() * (i + 1));
             cardsArray[randIndex].style.order = i;
